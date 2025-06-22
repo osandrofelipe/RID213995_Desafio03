@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Board de Tarefas</h1>
+        <section id="create-todo-section">
+            <form id='create-todo-form'>
+                <input type="text" id="description" name="description" class="input-description"
+                    aria-label="Nome da tarefa" placeholder="Nome da tarefa" required>
+                <input type="text" id="description-tag" name="description-tag" class="input-description" aria-label="Etiqueta"
+                    placeholder="Etiqueta" required>
+                <button type="submit" id="save-task" aria-label="Cadastrar tarefa" class="add-task-btn">+</button>
+            </form>
+        </section>
+        <section class="todo-list-section"></section>
+        <footer>
+            <p class="remove-done-tasks-btn"></p>
+            <button id="remove-done-tasks-btn" style="display: none;">Remover concluídas</button>
+        </footer>
+    </main>
+</body>
+
+</html>
