@@ -97,7 +97,7 @@ function appendTaskToDOM(task) {
 
   if (task.checked) {
     const checkIcon = document.createElement("img");
-    checkIcon.src = "./images/checked.png";
+    checkIcon.src = "./images/Checked.png";
     checkIcon.alt = "Tarefa concluída";
     checkIcon.style.width = "32px";
     checkIcon.style.height = "32px";
@@ -118,7 +118,7 @@ function appendTaskToDOM(task) {
 
       btnContainer.innerHTML = "";
       const checkIcon = document.createElement("img");
-      checkIcon.src = "./images/checked.png";
+      checkIcon.src = "./images/Checked.png";
       checkIcon.alt = "Tarefa concluída";
       checkIcon.style.width = "32px";
       checkIcon.style.height = "32px";
